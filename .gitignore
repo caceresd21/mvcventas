@@ -1,0 +1,13 @@
+# Ignorar entorno virtual
+venv/
+
+# Ignorar cualquier __pycache__ en cualquier ruta
+**/__pycache__/
+
+# Ignorar la carpeta instance completa (donde tienes las bases de datos locales)
+instance/
+
+# Ignorar archivos de bases de datos SQLite donde sea (por si acaso)
+*.db
+
+
