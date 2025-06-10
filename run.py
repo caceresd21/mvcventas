@@ -24,7 +24,11 @@ def inject_active_path():
 
 @app.route('/')
 def home():
-    return "<h1>Aplicacion ventas</h1>"
+    return '''
+        <h1>Aplicación Ventas</h1>
+        <a href="/clientes/" class="btn btn-primary">Ir a Clientes</a>
+    '''
+
 
 if __name__ == '__main__':
     with app.app_context():
