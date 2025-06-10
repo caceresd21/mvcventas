@@ -1,1 +1,21 @@
+# Ignorar entorno virtual
 venv/
+
+# Ignorar bases de datos locales dentro de instance
+instance/*.db
+
+# Ignorar caché de Python en cualquier parte del proyecto
+__pycache__/
+*/__pycache__/
+
+# Ignorar archivos temporales de Visual Studio Code
+.vscode/
+
+# Ignorar otros archivos temporales
+*.pyc
+*.pyo
+*.pyd
+
+# Ignorar archivos de sistema
+.DS_Store
+Thumbs.db
