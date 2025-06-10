@@ -5,9 +5,7 @@ from database import db
 
 app = Flask(__name__)
 
-#app.config['SQLALCHEMY_DATABASE_URI'] = 'sqlite:///ventas.db'
-import os
-app.config['SQLALCHEMY_DATABASE_URI'] = 'sqlite:///' + os.path.join(os.getcwd(), 'instance', 'ventas.db')
+app.config['SQLALCHEMY_DATABASE_URI'] = 'sqlite:///ventas.db'
 
 app.config['SQLALCHEMY_TRACK_MODIFICATIONS'] = False
 
